@@ -49,7 +49,7 @@ const Card = ({ data, setPurchesType, purchesType }) => {
                       }
           </ul>
           <div className="mt-6">
-            <button onClick={ addtocart } className="btn btn-primary btn-block rounded-full">
+            <button onClick={ addtocart } className="btn btn-primary btn-block rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA]">
               Buy Now
             </button>
           </div>
