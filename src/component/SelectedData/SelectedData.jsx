@@ -2,16 +2,24 @@ import React from "react";
 import EmptySelectedData from "./EmptySelectedData/EmptySelectedData";
 import AddSelectdData from "./AddSelectdData/AddSelectdData";
 import { FaShoppingCart } from "react-icons/fa";
+import { toast } from "react-toastify";
 
-const SelectedData = ({ purchesType, setPurchesType }) => {
+const SelectedData = ({ purchesType, setPurchesType , setCount }) => {
     // console.log(purchesType);
     
     const RemoveData = (data) => {
-        console.log(data);
+        
         const filterArr = purchesType.filter(rem => rem.id != data.id);
-        setPurchesType(filterArr)
+        setPurchesType(filterArr);
+        setCount(purchesType.length - 1);
+        toast.error("Remove From The Cart")
     }
-
+    const allCartDataRemove = () => {
+        setPurchesType([]);
+        setCount(0);
+        // toast.clear("All Cart Clear");
+        toast.success("All items removed from cart!");
+    }
   return (
     <div>
       <div className="card w-full bg-base-300 shadow-lg py-10 px-10 my-10 space-y-8">
@@ -19,7 +27,7 @@ const SelectedData = ({ purchesType, setPurchesType }) => {
         {purchesType.length === 0 ? (
           <div className="flex justify-center items-center flex-col text-[#627382]">
             <FaShoppingCart></FaShoppingCart>
-            <p>Your Cart is empty</p>
+            <p>Your Cart Is Empty</p>
           </div>
         ) : (
           purchesType.map((data, ind) => {
@@ -52,7 +60,7 @@ const SelectedData = ({ purchesType, setPurchesType }) => {
                 <p className="text-xl font-bold">$999</p>
               </div>
               <div>
-                <button onClick={() => setPurchesType([])} className="btn btn-primary btn-block rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA]">
+                          <button onClick={allCartDataRemove } className="btn btn-primary btn-block rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA]">
                   {" "}
                   Proceed To Checkout
                 </button>

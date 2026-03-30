@@ -1,15 +1,32 @@
 import React, { useState } from "react";
 import ArrCard from "./ArrCard/ArrCard";
+import { toast } from "react-toastify";
 
-const Card = ({ data, setPurchesType, purchesType }) => {
+const Card = ({ data, setPurchesType, purchesType, setCount , count}) => {
   
     const [buy, setBuy] = useState(false);
+
+
     const addtocart = () => {
+
+    const isExist = purchesType.find(item => item.id === data.id);
+
+    if (!isExist) {
+        
         setBuy(true);
-        alert("ok");
-        const arr = [...purchesType, data];
-        setPurchesType(arr);
-    }
+        const newArr = [...purchesType, data];
+        setPurchesType(newArr);
+        setCount(purchesType.length + 1);
+        // console.log(purchesType.length);
+        // alert("Product added to cart!");
+        toast.success(`${data.name} add to Cart`);
+    } else {
+        // alert("Already in cart!");
+        toast.error("Already in Cart");
+        }
+        
+        // console.log(count);
+}
 
   return (
     <div>
@@ -49,7 +66,7 @@ const Card = ({ data, setPurchesType, purchesType }) => {
                       }
           </ul>
           <div className="mt-6">
-            <button onClick={ addtocart } className="btn btn-primary btn-block rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA]">
+            <button onClick={ addtocart } className={`btn btn-primary btn-block rounded-full  ${buy === true ?  "bg-green-500 text-white" : "bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white"}` }>
               Buy Now
             </button>
           </div>

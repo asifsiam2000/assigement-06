@@ -1,10 +1,10 @@
 import React from "react";
 import { FaCartShopping } from "react-icons/fa6";
 
-const Navbar = () => {
+const Navbar = ({count}) => {
   return (
     <div className="">
-      <div className="navbar bg-base-100  max-w-[1200px] container mx-auto ">
+      <div className="navbar bg-base-100  w-[90%] container mx-auto  py-5">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -50,8 +50,16 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <div className="flex items-center gap-3">
-            <FaCartShopping></FaCartShopping>
+          <div className="relative flex items-center gap-3">
+            
+
+
+            <div className="">
+              <div className={` ${count == 0 ? "hidden" : "absolute -top-2 w-5 h-5 bg-red-600 text-white flex justify-center items-center rounded-full"} `}><p className="">{count}</p></div>
+              <FaCartShopping></FaCartShopping>
+            </div>
+
+
             <p>Login</p>
             {/* <span className="bg-linear-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent"><button className="btn btn-active btn-primary rounded-[9999px] ">Get Started</button></span> */}
             <button className="btn bg-linear-to-r from-[#4F39F6]/80 to-[#9514FA]/80 text-white border-none rounded-full">
