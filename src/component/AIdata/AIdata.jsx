@@ -17,7 +17,7 @@ const AIdata = ({ AIdataPromice , setCount , count}) => {
           
 
 
-      <div className="w[90%] mx-auto container p-10 flex justify-center items-center flex-col space-y-4 mb-5">
+      <div className="w[80%] mx-auto container p-10 flex justify-center items-center flex-col space-y-4 mb-5">
         <h2 className="text-4xl font-bold">Premium Digital Tools</h2>
         <p className="text-[#627382] text-center">
           Choose from our curated collection of premium digital products

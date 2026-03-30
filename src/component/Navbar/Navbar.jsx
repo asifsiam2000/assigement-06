@@ -4,7 +4,7 @@ import { FaCartShopping } from "react-icons/fa6";
 const Navbar = ({count}) => {
   return (
     <div className="">
-      <div className="navbar bg-base-100  w-[90%] container mx-auto  py-5">
+      <div className="navbar bg-base-100  w-[80%] container mx-auto  py-5">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
