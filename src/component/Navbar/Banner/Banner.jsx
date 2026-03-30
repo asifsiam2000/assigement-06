@@ -4,7 +4,7 @@ import bannerImg from "../../../assets/banner.png"
 import { CiPlay1 } from "react-icons/ci";
 const Banner = () => {
   return (
-    <div className="w-[80%] container gap-10 mx-auto py-20 flex flex-col-reverse md:flex-row justify-between items-center">
+    <div className="w-[80%] container gap-10 mx-auto py-20 flex flex-col-reverse md:flex-row justify-between items-center ">
       <div className="space-y-4">
               <div className="inline-flex rounded-full bg-[#E1E7FF] px-3 py-1 items-center">
                   <div><img src={circleImg} alt="" /></div>

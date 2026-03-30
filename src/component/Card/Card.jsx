@@ -30,7 +30,7 @@ const Card = ({ data, setPurchesType, purchesType, setCount , count}) => {
 
   return (
     <div>
-      <div className="card w-96 bg-base-100 shadow-sm">
+      <div className="card  bg-base-100 shadow-sm">
         <div className="card-body">
           <div className="flex justify-between items-center">
             <button className="btn w-10 h-10 flex items-center justify-center rounded-full border border-gray-100 bg-white shadow-sm">
