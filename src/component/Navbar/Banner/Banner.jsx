@@ -1,8 +1,10 @@
 import React from "react";
-import circleImg from "../../../assets/Group 5.png"
+import circleImg from "../../../assets/Group 5.png";
+import bannerImg from "../../../assets/banner.png"
+import { CiPlay1 } from "react-icons/ci";
 const Banner = () => {
   return (
-    <div className="max-w-[1200px] container mx-auto py-20">
+    <div className="max-w-[1200px] container gap-10 mx-auto py-20 flex flex-col-reverse md:flex-row justify-between items-center">
       <div className="space-y-4">
               <div className="inline-flex rounded-full bg-[#E1E7FF] px-3 py-1 items-center">
                   <div><img src={circleImg} alt="" /></div>
@@ -23,12 +25,18 @@ const Banner = () => {
           </button>
           <button className="p-[1px] rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA]">
             <span className="flex items-center gap-2 px-5 py-2 rounded-full bg-white text-purple-600">
-              Watch Demo
+              <CiPlay1></CiPlay1> Watch Demo
             </span>
           </button>
         </div>
-      </div>
-      <div></div>
+          </div>
+          
+
+          <div className="p-4">
+              <img src={bannerImg} alt="" className=" w-full" />
+          </div>
+          
+
     </div>
   );
 };
