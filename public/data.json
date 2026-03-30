@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "name": "AI Resume Builder",
+    "description": "Create professional resumes with AI assistance.",
+    "price": 0,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "primary",
+    "features": ["ATS optimization", "Export to PDF", "Custom templates"],
+    "icon": "📄"
+  },
+  {
+    "id": 2,
+    "name": "Design Template Pack",
+    "description": "Access hundreds of ready-made design templates.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "secondary",
+    "features": ["100+ templates", "Figma support", "Editable files"],
+    "icon": "🎨"
+  },
+  {
+    "id": 3,
+    "name": "AI Copywriting Tool",
+    "description": "Generate high-quality content instantly.",
+    "price": 25,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "primary",
+    "features": ["Blog writing", "Ad copy", "SEO optimization"],
+    "icon": "✍️"
+  },
+  {
+    "id": 4,
+    "name": "Social Media Scheduler",
+    "description": "Plan and schedule your social media posts.",
+    "price": 10,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "primary",
+    "features": ["Auto posting", "Analytics", "Multi-platform support"],
+    "icon": "📅"
+  },
+  {
+    "id": 5,
+    "name": "Website Builder",
+    "description": "Create websites without coding.",
+    "price": 50,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "primary",
+    "features": ["Drag & drop", "Custom domain", "SEO tools"],
+    "icon": "🌐"
+  },
+  {
+    "id": 6,
+    "name": "Stock Image Library",
+    "description": "Unlimited access to premium stock images.",
+    "price": 20,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "secondary",
+    "features": ["HD images", "Commercial use", "Search filters"],
+    "icon": "🖼️ "
+  },
+  {
+    "id": 7,
+    "name": "Video Editing Toolkit",
+    "description": "Edit videos with powerful tools.",
+    "price": 30,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "primary",
+    "features": ["Transitions", "Effects", "Export in HD"],
+    "icon": "🎬"
+  },
+  {
+    "id": 8,
+    "name": "Cloud Storage Pro",
+    "description": "Secure cloud storage for your files.",
+    "price": 100,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "primary",
+    "features": ["1TB storage", "File sharing", "Backup system"],
+    "icon": "☁️"
+  },
+  {
+    "id": 9,
+    "name": "AI Chat Assistant",
+    "description": "Smart chatbot for customer support and automation.",
+    "price": 40,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "secondary",
+    "features": ["24/7 support", "Auto replies", "Integration API"],
+    "icon": "🤖"
+  }
+]

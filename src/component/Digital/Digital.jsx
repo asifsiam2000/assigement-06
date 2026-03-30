@@ -2,8 +2,8 @@ import React from "react";
 
 const Digital = () => {
   return (
-    <div className="max-w-[1200px] mx-auto container p-10 flex justify-center items-center flex-col space-y-4 mb-5">
-      <h2 className="text-4xl font-bold">Premium Digital Tools</h2>
+    <div >
+      {/* <h2 className="text-4xl font-bold">Premium Digital Tools</h2>
       <p className="text-[#627382] text-center">
         Choose from our curated collection of premium digital products designed{" "}
         <br /> to boost your productivity and creativity.
@@ -14,7 +14,7 @@ const Digital = () => {
           Get Started
         </button>
         <button className="btn rounded-full">Cart()</button>
-      </div>
+      </div> */}
     </div>
   );
 };
