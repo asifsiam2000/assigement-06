@@ -2,17 +2,19 @@ import React, { useState } from "react";
 import ArrCard from "./ArrCard/ArrCard";
 import { toast } from "react-toastify";
 
-const Card = ({ data, setPurchesType, purchesType, setCount , count}) => {
+const Card = ({ data, setPurchesType, purchesType, setCount , count , setPrice , price}) => {
   
     const [buy, setBuy] = useState(false);
 
 
     const addtocart = () => {
 
-    const isExist = purchesType.find(item => item.id === data.id);
+        const isExist = purchesType.find(item => item.id === data.id);
+        let totalPrice;
 
     if (!isExist) {
-        
+        totalPrice = price + data.price;
+        setPrice(totalPrice);
         setBuy(true);
         const newArr = [...purchesType, data];
         setPurchesType(newArr);
@@ -30,7 +32,7 @@ const Card = ({ data, setPurchesType, purchesType, setCount , count}) => {
 
   return (
     <div>
-      <div className="card  bg-base-100 shadow-sm">
+      <div className="card  bg-base-100 shadow-sm h-full">
         <div className="card-body">
           <div className="flex justify-between items-center">
             <button className="btn w-10 h-10 flex items-center justify-center rounded-full border border-gray-100 bg-white shadow-sm">

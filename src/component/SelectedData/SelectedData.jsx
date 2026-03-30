@@ -1,20 +1,23 @@
-import React from "react";
+// import React, { useState } from "react";
 import EmptySelectedData from "./EmptySelectedData/EmptySelectedData";
 import AddSelectdData from "./AddSelectdData/AddSelectdData";
 import { FaShoppingCart } from "react-icons/fa";
 import { toast } from "react-toastify";
 
-const SelectedData = ({ purchesType, setPurchesType , setCount }) => {
+const SelectedData = ({ purchesType, setPurchesType , setCount , price , setPrice }) => {
     // console.log(purchesType);
+    // const [price, setPrice] = useState(0);
     
     const RemoveData = (data) => {
-        
+        const newPrice = price - data.price;
+        setPrice(newPrice);
         const filterArr = purchesType.filter(rem => rem.id != data.id);
         setPurchesType(filterArr);
         setCount(purchesType.length - 1);
         toast.error("Remove From The Cart")
     }
     const allCartDataRemove = () => {
+
         setPurchesType([]);
         setCount(0);
         // toast.clear("All Cart Clear");
@@ -57,7 +60,7 @@ const SelectedData = ({ purchesType, setPurchesType , setCount }) => {
             <div className="space-y-4">
               <div className="flex justify-between">
                 <p className="text-[#627382]">Total</p>
-                <p className="text-xl font-bold">$999</p>
+                          <p className="text-xl font-bold">${ price}</p>
               </div>
               <div>
                           <button onClick={allCartDataRemove } className="btn btn-primary btn-block rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA]">

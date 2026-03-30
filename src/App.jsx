@@ -19,6 +19,7 @@ const fetchAIdata = async () => {
 function App() {
   const [count, setCount] = useState(0);
   const AIdataPromice = fetchAIdata();
+  
   return (
     <>
       <Navbar count={count} ></Navbar>

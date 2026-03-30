@@ -6,7 +6,7 @@ const AIdata = ({ AIdataPromice , setCount , count}) => {
     const AIdatas = use(AIdataPromice);
     const [selectedType, setSelectedType] = useState("products");
     const [purchesType, setPurchesType] = useState([]);
-    
+    const [price, setPrice] = useState(0);
     // const navDisplay = (cnt) => {
     //     console.log("Button Clicked! Current Cart Count:", cnt);
 
@@ -35,7 +35,7 @@ const AIdata = ({ AIdataPromice , setCount , count}) => {
           
 
           <div className="">
-              {selectedType === "products" ? (<AIdataCard count={count} setCount={setCount} AIdatas={AIdatas} purchesType={purchesType} setPurchesType={setPurchesType}></AIdataCard>) : (<SelectedData setCount={setCount} purchesType={purchesType} setPurchesType = {setPurchesType}></SelectedData>)
+              {selectedType === "products" ? (<AIdataCard setPrice={setPrice} price={price} count={count} setCount={setCount} AIdatas={AIdatas} purchesType={purchesType} setPurchesType={setPurchesType}></AIdataCard>) : (<SelectedData setPrice={setPrice} price={price} setCount={setCount} purchesType={purchesType} setPurchesType = {setPurchesType}></SelectedData>)
               }
           </div>
 
