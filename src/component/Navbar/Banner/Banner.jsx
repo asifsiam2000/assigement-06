@@ -11,7 +11,7 @@ const Banner = () => {
                   <p className=" bg-linear-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">New: AI-Powered Tools Available</p> 
               </div>
         <h2 className="text-5xl font-bold">
-          Supercharge Your <br /> Digital Workflow
+          Supercharge Your <br /> <span className="bg-linear-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">Digital Workflow</span>
         </h2>
         <p className="text-[#627382]">
           Access premium AI tools, design assets, templates, and productivity{" "}
