@@ -41,7 +41,7 @@ const Getstart = () => {
 
                     <div className='flex justify-end my-5'>
                         <div className='w-9 h-9 rounded-full text-white bg-linear-to-r from-[#4F39F6]/80 to-[#9514FA]/80 flex justify-center items-center'>
-                            <p>01</p>
+                            <p>02</p>
                         </div>
                    </div>
 
@@ -59,7 +59,7 @@ const Getstart = () => {
 
                     <div className='flex justify-end my-5'>
                         <div className='w-9 h-9 rounded-full text-white bg-linear-to-r from-[#4F39F6]/80 to-[#9514FA]/80 flex justify-center items-center'>
-                            <p>01</p>
+                            <p>03</p>
                         </div>
                    </div>
 

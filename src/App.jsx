@@ -10,6 +10,7 @@ import { ToastContainer } from 'react-toastify'
 import Getstart from './component/Getstart/Getstart'
 import Sampletransport from './component/Sampletransport/Sampletransport'
 import ReadyToTrans from './component/ReadyToTrans/ReadyToTrans'
+import Footer from './component/Footer/Footer'
 
 
 const fetchAIdata = async () => {
@@ -44,6 +45,7 @@ function App() {
 
       <Sampletransport></Sampletransport>
       <ReadyToTrans></ReadyToTrans>
+      <Footer></Footer>
     </>
   )
 }
