@@ -8,6 +8,7 @@ import Banner from './component/Navbar/Banner/Banner'
 import Navbar from './component/Navbar/Navbar'
 import { ToastContainer } from 'react-toastify'
 import Getstart from './component/Getstart/Getstart'
+import Sampletransport from './component/Sampletransport/Sampletransport'
 
 
 const fetchAIdata = async () => {
@@ -39,6 +40,8 @@ function App() {
 
 
       <Getstart></Getstart>
+
+      <Sampletransport></Sampletransport>
     </>
   )
 }

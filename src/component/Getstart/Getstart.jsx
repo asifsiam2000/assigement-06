@@ -18,7 +18,7 @@ const Getstart = () => {
 
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
 
-                <div className='bg-base-200 p-8 mt-9 rounded-2xl'>
+                <div className='bg-base-300 p-8 mt-9 rounded-2xl'>
 
                     <div className='flex justify-end my-5'>
                         <div className='w-9 h-9 rounded-full text-white bg-linear-to-r from-[#4F39F6]/80 to-[#9514FA]/80 flex justify-center items-center'>
@@ -37,7 +37,7 @@ const Getstart = () => {
                 </div>
 
 
-                <div className='bg-base-200 p-8 mt-9 rounded-2xl'>
+                <div className='bg-base-300 p-8 mt-9 rounded-2xl'>
 
                     <div className='flex justify-end my-5'>
                         <div className='w-9 h-9 rounded-full text-white bg-linear-to-r from-[#4F39F6]/80 to-[#9514FA]/80 flex justify-center items-center'>
@@ -55,7 +55,7 @@ const Getstart = () => {
                     
                 </div>
 
-                <div className='bg-base-200 p-8 mt-9 rounded-2xl'>
+                <div className='bg-base-300 p-8 mt-9 rounded-2xl'>
 
                     <div className='flex justify-end my-5'>
                         <div className='w-9 h-9 rounded-full text-white bg-linear-to-r from-[#4F39F6]/80 to-[#9514FA]/80 flex justify-center items-center'>
