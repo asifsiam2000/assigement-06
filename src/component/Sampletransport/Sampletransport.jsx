@@ -55,7 +55,7 @@ const Sampletransport = () => {
 
 
 
-              <div className="card  bg-linear-to-r from-[#4F39F6]/80 to-[#9514FA]/80 shadow-sm space-y-3 p-6 h-full text-white">
+              <div className="card  bg-linear-to-r from-[#4F39F6] to-[#9514FA] shadow-sm space-y-3 p-6 h-full text-white">
                   <div>
                       <h3 className="text-xl font-bold">Starter</h3>
                       <p className="">Best for professionals</p>
