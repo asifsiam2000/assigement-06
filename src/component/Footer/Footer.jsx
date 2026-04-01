@@ -8,7 +8,7 @@ const Footer = () => {
         <div className='bg-[#101727]'>
 
 
-            <div className='grid p-15 grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 text-white'>
+            <div className='w-[80%] mx-auto container grid py-10 grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 text-white'>
                 <div className='space-y-4'>
                     <h2 className='text-2xl font-bold'>DigiTools</h2>
                     <p className='text-xs text-gray-500'>Premium digital tools for creators,  professionals, and businesses. Work smarter  with our suite of powerful tools.</p>
@@ -64,7 +64,7 @@ const Footer = () => {
 
              
             
-            <div className='w-[93%] mx-auto container p'>
+            <div className='w-[80%] mx-auto container p'>
                 <hr className='text-[#665353] shadow-2xl' />
                 <div className='flex justify-between items-center p-5'>
                     <div>
