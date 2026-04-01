@@ -56,7 +56,7 @@ const SelectedData = ({ purchesType, setPurchesType , setCount , price , setPric
           })
         )}
 
-        // all setino is working 
+        
           {purchesType.length !== 0 ? (
             <div className="space-y-4">
               <div className="flex justify-between">

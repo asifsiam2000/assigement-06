@@ -13,7 +13,8 @@ const Footer = () => {
                     <h2 className='text-2xl font-bold'>DigiTools</h2>
                     <p className='text-xs text-gray-500'>Premium digital tools for creators,  professionals, and businesses. Work smarter  with our suite of powerful tools.</p>
                 </div>
-
+                 
+                {/* sdfjsldf  */}
 
                 <div className='space-y-3'>
                     <h2 className='text-xl font-bold'>Product</h2>

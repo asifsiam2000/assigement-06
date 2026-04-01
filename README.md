@@ -30,7 +30,7 @@ DigiTools is a modern digital tools marketplace website where users can explore 
 ## 🛠️ Technologies Used
   
 - HTML5
-- CSS3
+- CSS
 - Tailwind CSS
 - JavaScript
 - React.js
