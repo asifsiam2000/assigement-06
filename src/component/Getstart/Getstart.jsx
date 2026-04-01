@@ -31,7 +31,7 @@ const Getstart = () => {
                             <div className='flex justify-center items-center  bg-white rounded-full h-15 w-15 p-3'><img src={img1} alt="" className=' ' /></div>
                         </div>
                         <h3 className='text-2xl font-bold'>Create Account</h3>
-                        <p className='text-center text-[#627382]'>Sign up for free in seconds. No credit card <br /> required to get started.</p>
+                        <p className='text-center text-[#627382] '>Sign up free in seconds. No credit card <br /> required to get started.</p>
                     </div>
                     
                 </div>
@@ -49,8 +49,8 @@ const Getstart = () => {
                         <div className='flex justify-center'>
                             <div className='flex justify-center items-center  bg-white rounded-full h-15 w-15 p-3'><img src={img2} alt="" className=' ' /></div>
                         </div>
-                        <h3 className='text-2xl font-bold'>Create Account</h3>
-                        <p className='text-center text-[#627382]'>Sign up for free in seconds. No credit card <br /> required to get started.</p>
+                        <h3 className='text-2xl font-bold'>Choose Products</h3>
+                        <p className='text-center text-[#627382]'>Browse our catalog and select the tools <br />that fit your needs.</p>
                     </div>
                     
                 </div>
@@ -67,8 +67,8 @@ const Getstart = () => {
                         <div className='flex justify-center'>
                             <div className='flex justify-center items-center  bg-white rounded-full h-15 w-15 p-3'><img src={img3} alt="" className=' ' /></div>
                         </div>
-                        <h3 className='text-2xl font-bold'>Create Account</h3>
-                        <p className='text-center text-[#627382]'>Sign up for free in seconds. No credit card <br /> required to get started.</p>
+                        <h3 className='text-2xl font-bold'>Start Creating</h3>
+                        <p className='text-center text-[#627382]'>Download and start  your premium  <br />tools immediately.</p>
                     </div>
                     
                 </div>

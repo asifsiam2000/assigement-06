@@ -19,7 +19,8 @@ const SelectedData = ({ purchesType, setPurchesType , setCount , price , setPric
     const allCartDataRemove = () => {
 
         setPurchesType([]);
-        setCount(0);
+      setCount(0);
+      setPrice(0);
         // toast.clear("All Cart Clear");
         toast.success("All items removed from cart!");
     }

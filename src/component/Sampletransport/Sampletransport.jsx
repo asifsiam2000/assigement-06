@@ -2,7 +2,7 @@ import React from "react";
 
 const Sampletransport = () => {
   return (
-    <div className="w-[80%] container mx-auto my-10">
+    <div className="w-[65%] container mx-auto my-10">
       <div className="text-center my-5">
         <h2 className="text-3xl font-bold">Simple, Transparent Pricing</h2>
         <p className="text-[#627382]">
@@ -15,7 +15,7 @@ const Sampletransport = () => {
 
 
            
-            <div className="card  bg-base-300 shadow-sm space-y-3 p-6 h-full">
+            <div className="card  bg-base-300 shadow-sm space-y-3 p-6 h-full rounded-3xl">
                   <div>
                       <h3 className="text-xl font-bold">Starter</h3>
                       <p className="text-[#627382]">Perfect for getting started</p>
@@ -55,7 +55,8 @@ const Sampletransport = () => {
 
 
 
-              <div className="card  bg-linear-to-r from-[#4F39F6] to-[#9514FA] shadow-sm space-y-3 p-6 h-full text-white">
+              <div className="relative card  bg-linear-to-r from-[#4F39F6] to-[#9514FA] shadow-sm space-y-3 p-6 h-full text-white rounded-3xl">
+                  <div class="badge  badge-warning absolute left-[40%] -top-3 md:left-[33%]">Most Populer</div>
                   <div>
                       <h3 className="text-xl font-bold">Starter</h3>
                       <p className="">Best for professionals</p>
@@ -98,7 +99,7 @@ const Sampletransport = () => {
 
 
 
-              <div className="card  bg-base-300 shadow-sm space-y-3 p-6 h-full">
+              <div className="card  bg-base-300 shadow-sm space-y-3 p-6 h-full rounded-3xl">
                   <div>
                       <h3 className="text-xl font-bold">Enterprise</h3>
                       <p className="text-[#627382]">For teams and businesses</p>
