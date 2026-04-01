@@ -24,7 +24,7 @@ const SelectedData = ({ purchesType, setPurchesType , setCount , price , setPric
         toast.success("All items removed from cart!");
     }
   return (
-    <div className="w-[80%] mx-auto container">
+    <div className="w-[80%] mx-auto container mb-80">
       <div className="card w-full bg-base-300 shadow-lg py-10 px-10 my-10 space-y-8">
         <p className="text-xl font-bold">Your Cart</p>
         {purchesType.length === 0 ? (
