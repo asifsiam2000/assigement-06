@@ -23,7 +23,7 @@ const Banner = () => {
           <button className=" btn bg-linear-to-r from-[#4F39F6]/80 to-[#9514FA]/80 text-white border-none rounded-full">
             Explore Products
           </button>
-          <button className="p-[1px] rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA]">
+          <button className="p-[1px] btn btn-soft btn-primary  rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA]">
             <span className="flex items-center gap-2 px-5 py-2 rounded-full bg-white text-purple-600">
               <CiPlay1></CiPlay1> Watch Demo
             </span>
